@@ -16,7 +16,4 @@ export default {
 </script>
 
 <style>
-#app {
-  background-image: linear-gradient(white 50%, blue);
-}
 </style>
