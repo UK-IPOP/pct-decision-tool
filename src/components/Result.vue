@@ -228,7 +228,7 @@ export default {
       level = this.answers.low_acuity;
     }
     var url =
-      "https://pct--decision-tool-backend.herokuapp.com/add" +
+      "https://ipop-rest-api.herokuapp.com/pct/update" +
       `?track=${this.answers.track}&level=${level}`;
     axios.get(encodeURI(url));
     // var d = new Date().toLocaleString();
